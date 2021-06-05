@@ -37,7 +37,7 @@ public class GameController : MonoBehaviour
     // Get your own App ID at https://dashboard.agora.io/
     [Header("Agora Properties")]
     [SerializeField]
-    private string AppID = "your_appid";
+    private string AppID = "227cce3267d6410daa30552d34ac588d";
 
     public PlayerMode PlayerMode { get; private set; }
     private IRtcEngine mRtcEngine;
